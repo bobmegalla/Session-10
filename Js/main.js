@@ -13,7 +13,14 @@ function ToggleThemeColor(){
         div.classList.toggle('gray')
         btn1.classList.toggle('light')
         btn2.classList.toggle('dark')
-      
+        btn1.innerText = "Light"
+    }else if(btn1.innerText == "Light"){
+        body.classList.toggle('dark')
+        div.classList.toggle('gray')
+        btn1.classList.toggle('light')
+        btn2.classList.toggle('dark')
+        
+        btn1.innerText = "Dark"
     }
 
 }
