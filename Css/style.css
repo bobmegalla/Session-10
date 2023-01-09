@@ -1,0 +1,44 @@
+
+
+
+
+.btn1{
+    width: 150px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 3px;
+    color: white;
+    background-color: black;
+}
+div{
+    margin: 100px auto;
+   /*  margin-left: 100px; */
+    width: 70%;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px 40px;
+    justify-content: space-around; 
+}
+div p{
+    margin: 30px 5px;
+}
+div .btn2{
+    width: 250px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 3px;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+.gray{
+    background-color: gray;
+    color: white;
+}
+.light{
+    background-color: white;
+    color: black;
+}
